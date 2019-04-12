@@ -1,4 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿/*********
+* 
+*   from:http://www.cnblogs.com/artech/p/net-core-file-provider-01.html
+*   
+*********/
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using System;
 using System.Diagnostics;
