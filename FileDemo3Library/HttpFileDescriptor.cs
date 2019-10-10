@@ -1,4 +1,9 @@
-﻿using Microsoft.Extensions.FileProviders;
+﻿/*********
+* 
+*   from https://www.cnblogs.com/artech/p/net-core-file-provider-05.html
+*   
+*********/
+using Microsoft.Extensions.FileProviders;
 using System;
 using System.Net.Http;
 
