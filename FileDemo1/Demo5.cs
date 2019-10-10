@@ -1,24 +1,33 @@
 ﻿/*********
 * 
-*   from:http://www.cnblogs.com/artech/p/net-core-file-provider-01.html
+*   from https://www.cnblogs.com/artech/p/net-core-file-provider-03.html
 *   
 *********/
 using Microsoft.Extensions.FileProviders;
-using Microsoft.Extensions.Primitives;
 using System;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FileDemo1.Demo4
+namespace FileDemo1.Demo5
 {
-    class Demo4
+    class Demo5
     {
         public void Execute()
         {
             IFileProvider fileProvider = new PhysicalFileProvider(@"F:\Test");
 
-            ChangeToken.OnChange(() => fileProvider.Watch("data.txt"), () => LoadFileAsync(fileProvider));
+            Action<object> callback = null;
+            IDisposable register = null;
+
+            callback = _ =>
+            {
+                register.Dispose();
+                LoadFileAsync(fileProvider);
+                register = fileProvider.Watch("data.txt").RegisterChangeCallback(callback, null);
+            };
+
+            register = fileProvider.Watch("data.txt").RegisterChangeCallback(callback, null);
 
             while (true)
             {
