@@ -1,4 +1,9 @@
-﻿using FileDemo3;
+﻿/*********
+* 
+*   from https://www.cnblogs.com/artech/p/net-core-file-provider-05.html
+*   
+*********/
+using FileDemo3;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using System;

@@ -1,7 +1,11 @@
-﻿using FileDemo3;
+﻿/*********
+* 
+*   from https://www.cnblogs.com/artech/p/net-core-file-provider-05.html
+*   
+*********/
+using FileDemo3;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using System;
 
 namespace FileDemo3Server
 {
