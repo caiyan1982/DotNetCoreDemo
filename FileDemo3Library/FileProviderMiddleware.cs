@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿/*********
+* 
+*   from https://www.cnblogs.com/artech/p/net-core-file-provider-05.html
+*   
+*********/
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.FileProviders;
 using Newtonsoft.Json;
 using System;
