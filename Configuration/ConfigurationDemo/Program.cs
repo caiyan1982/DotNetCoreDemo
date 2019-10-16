@@ -12,8 +12,23 @@ namespace ConfigurationDemo
             //Demo2 demo2 = new Demo2();
             //demo2.Execute();
 
-            Demo3.Demo3 demo3 = new Demo3.Demo3();
-            demo3.Execute();
+            //Demo3.Demo3 demo3 = new Demo3.Demo3();
+            //demo3.Execute();
+
+            //Demo4 demo4 = new Demo4();
+            //demo4.Execute();
+
+            //Demo5 demo5 = new Demo5();
+            //demo5.Execute();
+
+            //Demo6 demo6 = new Demo6();
+            //demo6.Execute();
+
+            //Demo7 demo7 = new Demo7();
+            //demo7.Execute();
+
+            Demo8 demo8 = new Demo8();
+            demo8.Execute();
 
             Console.Read();
         }
