@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldWeb", "HelloWorldWeb\HelloWorldWeb.csproj", "{EEB7E905-BD59-4CB5-88DA-447905AB2D0E}"
 EndProject
@@ -29,9 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileDemo3", "FileDemo3", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileDemo3Library", "FileDemo3Library\FileDemo3Library.csproj", "{8A3F15A5-4E04-43DE-9D6C-441E0E6C1A46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDemo3Server", "FileDemo3Server\FileDemo3Server.csproj", "{7E8B5729-6831-44F8-849F-E24B9B0CDD0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileDemo3Server", "FileDemo3Server\FileDemo3Server.csproj", "{7E8B5729-6831-44F8-849F-E24B9B0CDD0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDemo3Client", "FileDemo3Client\FileDemo3Client.csproj", "{0A874550-7902-4A48-BB61-26C79EEAFA8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileDemo3Client", "FileDemo3Client\FileDemo3Client.csproj", "{0A874550-7902-4A48-BB61-26C79EEAFA8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{51CEEEFC-4A7D-4275-B9B7-0333E968E0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationDemo", "Configuration\ConfigurationDemo\ConfigurationDemo.csproj", "{5978E0DD-5A97-4A9C-8F70-E9523CB09C97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +87,10 @@ Global
 		{0A874550-7902-4A48-BB61-26C79EEAFA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A874550-7902-4A48-BB61-26C79EEAFA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A874550-7902-4A48-BB61-26C79EEAFA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5978E0DD-5A97-4A9C-8F70-E9523CB09C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5978E0DD-5A97-4A9C-8F70-E9523CB09C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5978E0DD-5A97-4A9C-8F70-E9523CB09C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5978E0DD-5A97-4A9C-8F70-E9523CB09C97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +108,7 @@ Global
 		{8A3F15A5-4E04-43DE-9D6C-441E0E6C1A46} = {3016E35B-5A3A-41F1-925C-1DDD36E24222}
 		{7E8B5729-6831-44F8-849F-E24B9B0CDD0C} = {3016E35B-5A3A-41F1-925C-1DDD36E24222}
 		{0A874550-7902-4A48-BB61-26C79EEAFA8B} = {3016E35B-5A3A-41F1-925C-1DDD36E24222}
+		{5978E0DD-5A97-4A9C-8F70-E9523CB09C97} = {51CEEEFC-4A7D-4275-B9B7-0333E968E0D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BDAF6AD9-45DC-43E5-AAAB-4D8EDB5A1B3D}
