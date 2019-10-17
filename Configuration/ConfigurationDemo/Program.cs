@@ -27,8 +27,20 @@ namespace ConfigurationDemo
             //Demo7 demo7 = new Demo7();
             //demo7.Execute();
 
-            Demo8 demo8 = new Demo8();
-            demo8.Execute();
+            //Demo8 demo8 = new Demo8();
+            //demo8.Execute();
+
+            //Demo9 demo9 = new Demo9();
+            //demo9.Execute();
+
+            //Demo10 demo10 = new Demo10();
+            //demo10.Execute();
+
+            //Demo11 demo11 = new Demo11();
+            //demo11.Execute();
+
+            Demo12 demo12 = new Demo12();
+            demo12.Execute();
 
             Console.Read();
         }

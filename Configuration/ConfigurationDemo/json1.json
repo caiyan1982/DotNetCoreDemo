@@ -1,0 +1,10 @@
+{
+  "profile": {
+    "gender": "Male",
+    "age": "18",
+    "ContactInfo": {
+      "EmailAddress": "foo@outlook.com",
+      "PhoneNo": "123456789"
+    }
+  }
+}
