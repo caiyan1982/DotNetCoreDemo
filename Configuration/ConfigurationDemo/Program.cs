@@ -54,8 +54,11 @@ namespace ConfigurationDemo
             //Demo16 demo16 = new Demo16();
             //demo16.Execute();
 
-            Demo17 demo17 = new Demo17();
-            demo17.Execute();
+            //Demo17 demo17 = new Demo17();
+            //demo17.Execute();
+
+            Demo18 demo18 = new Demo18();
+            demo18.Execute();
 
             Console.Read();
         }
