@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "foo": {
+      "gender": "Male",
+      "age": "18",
+      "contactInfo": {
+        "emailAddress": "foo@outlook.com",
+        "phoneNo": "123"
+      }
+    },
+    "bar": {
+      "gender": "Male",
+      "age": "25",
+      "contactInfo": {
+        "emailAddress": "bar@outlook.com",
+        "phoneNo": "456"
+      }
+    },
+    "baz": {
+      "gender": "Female",
+      "age": "40",
+      "contactInfo": {
+        "emailAddress": "baz@outlook.com",
+        "phoneNo": "789"
+      }
+    }
+  }
+}
