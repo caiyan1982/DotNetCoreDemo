@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Profile Gender="Male" Age="18">
+  <ContactInfo EmailAddress="foobar@outlook.com" PhoneNo="123456789" />
+</Profile>
