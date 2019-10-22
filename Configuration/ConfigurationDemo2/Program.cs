@@ -8,8 +8,11 @@ namespace ConfigurationDemo2
     {
         static void Main(string[] args)
         {
-            DbConfigurationDemo dbConfigurationDemo = new DbConfigurationDemo();
-            dbConfigurationDemo.Execute();
+            //DbConfigurationDemo dbConfigurationDemo = new DbConfigurationDemo();
+            //dbConfigurationDemo.Execute();
+
+            FileConfigurationReloadDemo reloadDemo = new FileConfigurationReloadDemo();
+            reloadDemo.Execute();
 
             Console.Read();
         }
