@@ -1,0 +1,5 @@
+{
+  "connectionStrings": {
+    "defaultDB": "Server=.;Database=Test;Uid=caiy;Pwd=123456"
+  }
+}
