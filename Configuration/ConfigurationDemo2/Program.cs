@@ -11,8 +11,11 @@ namespace ConfigurationDemo2
             //DbConfigurationDemo dbConfigurationDemo = new DbConfigurationDemo();
             //dbConfigurationDemo.Execute();
 
-            FileConfigurationReloadDemo reloadDemo = new FileConfigurationReloadDemo();
-            reloadDemo.Execute();
+            //FileConfigurationReloadDemo reloadDemo = new FileConfigurationReloadDemo();
+            //reloadDemo.Execute();
+
+            ExtendXmlConfigurationDemo xmlConfigurationDemo = new ExtendXmlConfigurationDemo();
+            xmlConfigurationDemo.Execute();
 
             Console.Read();
         }
