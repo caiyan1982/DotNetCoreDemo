@@ -1,0 +1,11 @@
+{
+  "IncludeScopes": false,
+  "LogLevel": {
+    "App1": "Trace",
+    "App2": "Debug",
+    "App3": "Information",
+    "App4": "Warning",
+    "App5": "Error",
+    "App6": "Critical"
+  }
+}
