@@ -4,10 +4,7 @@
 *   
 *********/
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Logging.Console;
-using Microsoft.Extensions.Options;
 
 namespace LoggingDemo1
 {
@@ -18,13 +15,6 @@ namespace LoggingDemo1
             IConfiguration loggerConfig = new ConfigurationBuilder()
                 .AddJsonFile("logging.json")
                 .Build();
-
-            ConsoleLoggerOptions loggerOptions = new ServiceCollection()
-                .AddOptions()
-                .Configure<ConsoleLoggerOptions>(loggerConfig)
-                .BuildServiceProvider()
-                .GetService<IOptions<ConsoleLoggerOptions>>()
-                .Value;
 
             ILoggerFactory loggerFactory = LoggerFactory.Create(builder 
                 => builder.AddConfiguration(loggerConfig).AddConsole());
