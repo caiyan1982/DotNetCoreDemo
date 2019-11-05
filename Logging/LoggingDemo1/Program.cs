@@ -9,8 +9,11 @@ namespace LoggingDemo1
             //Demo1 demo1 = new Demo1();
             //demo1.Execute();
 
-            ConsoleLoggerDemo consoleLoggerDemo = new ConsoleLoggerDemo();
-            consoleLoggerDemo.Execute();
+            //ConsoleLoggerDemo consoleLoggerDemo = new ConsoleLoggerDemo();
+            //consoleLoggerDemo.Execute();
+
+            DebugLoggerDemo debugLoggerDemo = new DebugLoggerDemo();
+            debugLoggerDemo.Execute();
 
             Console.Read();
         }
