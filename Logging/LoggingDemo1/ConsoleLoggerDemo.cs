@@ -1,11 +1,13 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿/*********
+* 
+*   from:https://www.cnblogs.com/artech/p/logging-for-net-core-02.html
+*   
+*********/
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Console;
 using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace LoggingDemo1
 {
