@@ -12,8 +12,11 @@ namespace LoggingDemo1
             //ConsoleLoggerDemo consoleLoggerDemo = new ConsoleLoggerDemo();
             //consoleLoggerDemo.Execute();
 
-            DebugLoggerDemo debugLoggerDemo = new DebugLoggerDemo();
-            debugLoggerDemo.Execute();
+            //DebugLoggerDemo debugLoggerDemo = new DebugLoggerDemo();
+            //debugLoggerDemo.Execute();
+
+            EventLogLoggerDemo eventLogLoggerDemo = new EventLogLoggerDemo();
+            eventLogLoggerDemo.Execute();
 
             Console.Read();
         }
