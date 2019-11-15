@@ -18,8 +18,11 @@ namespace LoggingDemo1
             //EventLogLoggerDemo eventLogLoggerDemo = new EventLogLoggerDemo();
             //eventLogLoggerDemo.Execute();
 
-            TraceSourceDemo traceSourceDemo = new TraceSourceDemo();
-            traceSourceDemo.Execute();
+            //TraceSourceDemo traceSourceDemo = new TraceSourceDemo();
+            //traceSourceDemo.Execute();
+
+            TraceSourceLoggerDemo traceSourceLoggerDemo = new TraceSourceLoggerDemo();
+            traceSourceLoggerDemo.Execute();
 
             Console.Read();
         }
